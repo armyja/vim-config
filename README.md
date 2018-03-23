@@ -1,4 +1,4 @@
-# git-config
+# vim-config
 
 ## Usage
 
