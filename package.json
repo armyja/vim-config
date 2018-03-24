@@ -1,0 +1,49 @@
+{
+  "name": "vim-config",
+  "version": "1.0.0",
+  "description": "A personal vim config.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samwang1027/vim-config.git"
+  },
+  "keywords": [
+    "vim",
+    "config"
+  ],
+  "author": "Jeffrey Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samwang1027/vim-config/issues"
+  },
+  "homepage": "https://github.com/samwang1027/vim-config#readme",
+  "verb": {
+    "toc": {
+      "render": true,
+      "method": "preWrite",
+      "collapsible": false
+    },
+    "layout": "empty",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "arr-filter",
+        "arr-union",
+        "array-each",
+        "array-unique",
+        "editorconfig-vim"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  },
+  "devDependencies": {
+    "gulp-format-md": "^1.0.0"
+  }
+}
